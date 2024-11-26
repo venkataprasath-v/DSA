@@ -36,7 +36,7 @@ for i in range(1,len(list)):
     curr = curr.next
 
 
-# Call function to reverse the list
+# Call function to reverse the linked list
 new_solution = Solution()
 head = new_solution.reverseList(head)
 
