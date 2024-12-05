@@ -1,8 +1,9 @@
-print("Hi")
+# Program for bubble sort
 
+# Array definition
 arr = [4,7,2,9,1,3,8,6,5]
 
-
+# Function for printing the array
 def printarr():
     fin = ""
     for k in range(len(arr)):
@@ -10,6 +11,7 @@ def printarr():
 
     print(fin)
 
+# Bubble sort
 for i in range(len(arr)):
     printarr()
     for j in range(len(arr) - i - 1):

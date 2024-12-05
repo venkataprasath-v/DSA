@@ -1,9 +1,9 @@
-print("Hi")
+# Program for quick sort
 
+# Array definition
 arr = [4, 6, 20, 1, 8, 16, 10, 11, 11, 18, 5, 13, 19, 14, 17, 2, 15, 11, 11, 11, 7, 3, 12, 9]
-#arr = [13, 13]
 
-
+# Print array
 def printarr(arr):
     fin = ""
     for k in range(len(arr)):
@@ -11,6 +11,8 @@ def printarr(arr):
 
     print(fin)
 
+
+# Function for Quick sort 
 def quicksort(arr, left, right):
 
     origleft, origright = left, right

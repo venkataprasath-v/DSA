@@ -1,8 +1,10 @@
-print("Hi")
+# Insertion sort
 
+# Array definition
 arr = [4,7,2,9,1,3,8,6,5]
 
 
+# Function for printing the array
 def printarr():
     fin = ""
     for k in range(len(arr)):
@@ -10,6 +12,8 @@ def printarr():
 
     print(fin)
 
+
+# Insertion sort
 for i in range(1,len(arr)):
     printarr()
     j = i
